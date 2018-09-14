@@ -239,8 +239,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameSystem\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameSystem\GameSceneManager.cs" />
     <Compile Include="Assets\Scripts\GameSystem\ResourceLoader.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMoveController.cs" />
+    <Compile Include="Assets\UI\TitleController.cs" />
+    <Compile Include="Assets\UI\TitleTextureAutoScaler.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

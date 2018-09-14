@@ -7,4 +7,11 @@ public class GameManager : MonoBehaviour {
     public static GameManager CurrentGameManager {
         get { return _gameManager; }
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("TitleScene");
+        }
+    }
 }
