@@ -1,0 +1,16 @@
+**/Library/
+**/Temp/
+**/Backup/
+**/.vs/
+
+/.vs/
+
+ExportedObj/
+.consulo/
+*.tmp
+*.user
+*.svd
+
+*.vscode
+
+*.filters
